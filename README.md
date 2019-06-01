@@ -1,8 +1,8 @@
 ##### TRIANGLE TRACKER
 
-##BY RYAN MIANO
+## By Ryan Miano
 
-###Description
+### Description
 This is a project that describes a triangle whether it is either Equilateral,Scalene or Isosceles through JavaScript logic.
 
 
