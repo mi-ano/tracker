@@ -39,24 +39,27 @@
   <section id="tracker">
     <p>Enter your dimensions to learn the type of your triangle</p>
     <form>
-      <div>
+      <div class="form-group">
         <label>Side1</label>
         <input type="number" placeholder="enter side 1">
       </div>
-      <div>
+      <div class="form-group">
         <label>Side2</label>
         <input type="number" placeholder="enter side 2">
       </div>
-      <div>
+      <div class="form-group">
         <label>Side3</label>
         <input type="number" placeholder="enter side 3">
       </div>
-      <button>Check</button>
-      <button>Clear</button>
+      <button type="submit" class="btn btn-outline-success">Check</button>
+      <button class="btn btn-outline-danger">Clear</button>
     </form>
+
+    <div class="results">
+      <p id="type"></p>
+    </div>
   </section>
 
-  <!-- results section -->
-  <section id="results"></section>
+  
 </body>
 </html>
