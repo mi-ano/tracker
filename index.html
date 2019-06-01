@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -12,30 +12,28 @@
     <title>TRACKER</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-                <div class="col-4">
-                    <p>an equilateral triangle is equiangular; that is, all three internal angles are also congruent to each other and are each 60°. </p>
-                </div>
-                <div class="col-4">
-                     <p> An isosceles triangle is a triangle with (at least) two equal sides. In the figure above, the two equal sides have length b and the remaining side has length a. This property is equivalent to two angles of the triangle being equal. An isosceles triangle therefore has both two equal sides and two equal angles.</p>
-                </div>
-                <div class="col-4">
-                     <p> An isosceles triangle is a triangle with (at least) two equal sides. In the figure above, the two equal sides have length b and the remaining side has length a. This property is equivalent to two angles of the triangle being equal. An isosceles triangle therefore has both two equal sides and two equal angles.</p>
-                     <button class="btn-danger btn-xs">click me</button>
-                </div>
-    <p>A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry</p>
-    <form class="enter">
-            <p>l1:<input type="number" id="l1" placeholder="Enter a number"
-              value=""></p>
-            <p>l2:<input type="number" id="l2" placeholder="Enter a number"
-              value=""></p>
-            <p>l3:<input type="number" id="l3" placeholder="Enter a number"
-              value=""></p>
-            <button id="check" type="button" onclick="triart()">Calculate</button>
-            <button id="reset" type="reset" onclick="triagain()">Retry</button>
+  <section id="tri-tracker">
+    <h1>TRI-TRACKER</h1>
+    <p>A triangle is a polygon with three side and three angles. There are three major types of triangles: Equilateral, Isosceles, Scalene  </p>
+  </section> 
+  <section id="tracker">
+    <p>Enter your dimensions to learn the type of your triangle</p>
+    <form>
+      <div>
+        <label>Side1</label>
+        <input type="number" placeholder="enter side 1">
+      </div>
+      <div>
+        <label>Side2</label>
+        <input type="number" placeholder="enter side 2">
+      </div>
+      <div>
+        <label>Side3</label>
+        <input type="number" placeholder="enter side 3">
+      </div>
+      <button>Check</button>
+      <button>Clear</button>
     </form>
-    </div>
-    
+  </section>
 </body>
 </html>
