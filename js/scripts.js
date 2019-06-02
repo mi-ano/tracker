@@ -11,6 +11,7 @@ function tracker() {
         document.getElementById('type').innerHTML = "<P>This is an equilateral triangle. all sides and angles are equal.</P>";
     }else if ( triangle[0] === triangle[1] || triangle[1] === triangle[2] || triangle[2] === triangle[0] ) {
         document.getElementById('type').innerHTML = "<p>This is an isosceles triangle. two sides and two angles are equal</p>";
+        document.getElementById('image').src="../images/tri2.png";
     }else if ( (triangle[0]+triangle[1]) >= triangle[2] || (triangle[1]+triangle[2]) >= triangle[0] || (triangle[2]+triangle[0]) >= triangle[1]){
         document.getElementById('type').innerHTML = "<p>this is a scalene triangle no sides are equal.</p>";
     }else {

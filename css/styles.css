@@ -12,6 +12,7 @@ section#tri-tracker{
     color: #fff;
     width: 100%;
     height: 100vh;
+    scroll-snap-align: center;
 }
 
 section#tri-tracker{
@@ -29,10 +30,17 @@ section#tracker {
     width: 100%;
     height: 100vh;
     color: #fff;
+    scroll-snap-align: center;
 }
 
 section#tracker{
     background-image: url(../images/tracker.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#type{
+    border: 2px solid blue;
+    float: right;
+    color: blue;
 }
