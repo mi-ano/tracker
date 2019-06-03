@@ -34,7 +34,7 @@ For Triangle cannot be formed | side-1=9, side-2=4, side-3:5 | your sides cannot
 So far i haven't come across any known bugs.If you come across by please feel free to contact me.
 
 ## Contact Information
-YOu can contact me through my E-mail ryanmiano68@gmail.com.
+You can contact me through my E-mail ryanmiano68@gmail.com.
 
 ## License and Copyright Information
 The project has an MIT License therefore it can be used by anyone for whichever purpose they deem fit to use it under. Copyright (c) {2019} Ryan Miano.
